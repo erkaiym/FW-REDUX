@@ -69,7 +69,7 @@ const Questions = () => {
   console.log("questions", questions);
   console.log("question", questions[0].answers);
 
-  const title = timeOut ? 'Your time is up' : 'You have completed the test!'
+  const title = timeOut ? 'Ваше время вышло' : 'Вы прошли тест!'
   return (
     <div>
       <div className="start-user">
@@ -89,12 +89,12 @@ const Questions = () => {
           autoComplete="off"
         >
           <Form.Item
-            label="Username"
+            label="ФИО"
             name="username"
             rules={[
               {
                 required: true,
-                message: "Enter your name to take the test!",
+                message: "Введите свое имя, чтобы пройти тест!",
               },
             ]}
           >
@@ -108,17 +108,17 @@ const Questions = () => {
             }}
           >
             <Button type="primary" htmlType="submit">
-              START
+              Начать
             </Button>
           </Form.Item>
         </Form>
       </div>
       <div>
-        <h1>Quick Quiz</h1>
-        <h3>Some questions may have more than one correct answer.</h3>
+        <h1>Пройди тест , чтобы узнать насколько хорошо ты знаешь историю Кыргызстана ?</h1>
+        <h4>Некоторые вопросы могут иметь более одного правильного ответа.</h4>
         <Row gutter={16}>
         <Col span={12}>
-            <Countdown title="Countdown" value={deadline} onFinish={onTimerFinish} />
+            <Countdown title="Обратный отсчет" value={deadline} onFinish={onTimerFinish} />
         </Col>
         </Row>
       </div>
@@ -257,10 +257,10 @@ const Questions = () => {
       >
         <div>
           <h2>
-            {user} Your score:{correctAnswers} of {questions.length}
+            {user} Итого:{correctAnswers} из {questions.length}
           </h2>
           <h2>
-            Test success:
+            Выполнено на :
             {Math.floor((correctAnswers / questions.length) * 100)}%
           </h2>
         </div>

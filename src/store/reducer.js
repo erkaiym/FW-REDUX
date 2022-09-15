@@ -6,222 +6,222 @@ import {
   const initialState = {
     questions: [
         {id: 1,
-            question: 'In which continent are Chile, Argentina and Brazil?',
+            question: 'Какой город является столицей Кыргызстана?',
             answers: [
                 {
-                   answer: 'North America',
+                   answer: 'ОШ',
                    correct: false
                 },
                 {
-                    answer: 'Europe',
+                    answer: 'Наарын',
                     correct: false
                 },
                 {
-                    answer: 'Australasia',
+                    answer: 'Каракол',
                     correct: false
                 },
                 {
-                    answer: 'South America',
+                    answer: 'Бишкек',
                     correct: true 
                 }
             ]
 
         },
         {id: 2,
-            question: "Which brand of soup featured in one of Andy Warhol’s most famous pop art pieces?",
+            question: "Какая птица изображена на гербе Кыргызстана?",
             multiple:true,
             answers: [
                 {
-                    answer: "Heinz",
+                    answer: "Орёл",
                     correct: true
                  },
                  {
-                     answer: "Knorr",
+                     answer: "Сокол",
                      correct: false
                  },
                  {
-                     answer: "Baxters",
+                     answer: "Голубь",
                      correct: false
                  },
                  {
-                     answer: "Campbell’s",
-                     correct: true 
+                     answer: "Ястреб",
+                     correct: false
                  }
             ]
 
         },
         {id: 3,
-            question: "The Mad Hatter and the Cheshire Cat are characters in which famous book?",
+            question: "С какими государствами Кыргызстан граничит?",
             answers: [
                 {
-                    answer: "Winne-the-Pooh",
-                    correct: false
+                    answer: "С Китаем",
+                    correct: true
                  },
                  {
-                     answer: "Charlotte's Web",
+                     answer: "С Америкой ",
                      correct: false
                  },
                  {
-                     answer: "Charlie and the Chocolate Factory",
+                     answer: "С Узбекистаном",
                      correct: false
                  },
                  {
-                     answer: "Alice in Wonderland",
+                     answer: "С Казахстаном",
                      correct: true 
                  }
             ]
 
         },
         {id: 4,
-            question: "The Statue of Liberty was a gift to the United States from which European country?",
+            question: "В каком году Кыргызстан получил независимость от СССР?",
             answers: [
                 {
-                    answer: "Belgium",
+                    answer: "1990",
                     correct: false
                  },
                  {
-                     answer: "Germany",
+                     answer: "2001",
                      correct: false
                  },
                  {
-                     answer: "Spain",
+                     answer: "1993",
                      correct: false
                  },
                  {
-                     answer: "France",
+                     answer: "1991",
                      correct: true 
                  }
             ]
 
         },
         {id: 5,
-            question: "Which traditional Spanish dance originated in Andalusia and is recognised by UNESCO as a heritage of humanity?",
+            question: "Какой язык является государственным языком Кыргызстана?",
             answers: [
                 {
-                    answer: "Sardana",
+                    answer: "Китайский",
                     correct: false
                  },
                  {
-                     answer: "Paso Doble",
+                     answer: "Таджикский",
                      correct: false
                  },
                  {
-                     answer: "Tango",
+                     answer: "Английский",
                      correct: false
                  },
                  {
-                     answer: "Flamenco",
+                     answer: "Кыргызский",
                      correct: true 
                  }
             ]
 
         },
         {id: 6,
-            question: "Which artist famously cut off his own ear?",
+            question: "Какой тип климата характерен для Киргизии?",
             answers: [
                 {
-                    answer: "Pablo Picasso",
+                    answer: "Влажный",
                     correct: false
                  },
                  {
-                     answer: "Salvador Dali",
+                     answer: "Умеренный",
                      correct: false
                  },
                  {
-                     answer:  "Claude Monet",
+                     answer:  "Морской",
                      correct: false
                  },
                  {
-                     answer: "Vincent Van Gogh",
+                     answer: "Континентальный",
                      correct: true 
                  }
             ]
 
         },
         {id: 7,
-            question: "Which Danish-Norwegian band released the hit song ‘Barbie Girl’ in 1997?",
+            question: "Как зовут президента Кыргызстана вступившего в должность с 1 декабря 2011 года?",
             answers: [
                 {
-                    answer: "ABBA",
+                    answer: "Асылбек Жээнбеков",
                     correct: false
                  },
                  {
-                     answer: "Vanilla Ice",
+                     answer: "Сооронбай Жеенбеков",
                      correct: false
                  },
                  {
-                     answer: "Bjork",
+                     answer: "Темир Сариев",
                      correct: false
                  },
                  {
-                     answer: "Aqua",
+                     answer: "Алмазбек Атамбаев",
                      correct: true 
                  }
             ]
 
         },
         {id: 8,
-            question: "Which composer scored 2000s classics such as Gladiator, Hannibal, Madagascar and Black Hawk Down?",
+            question: "Какой народ исторически проживал на территории Киргизии?",
             answers: [
                 {
-                    answer: "John Williams",
+                    answer: "Китайцы",
                     correct: false
                  },
                  {
-                     answer: "Danny Elfman",
+                     answer: "Сасаниды",
                      correct: false
                  },
                  {
-                     answer: "James Horner",
+                     answer: "Скифы",
                      correct: false
                  },
                  {
-                     answer: "Hans Zimmer",
+                     answer: "Гунны",
                      correct: true 
                  }
             ]
 
         },
         {id: 9,
-            question: "What other country, besides the US, uses the US dollar as its official currency?",
+            question: "В каком году была принята новая конституция Киргизии?",
             multiple:true,
             answers: [
                 {
-                    answer: "United Kingdom",
+                    answer: "В 1290",
                     correct: false
                  },
                  {
-                     answer: "Mexico",
+                     answer: "В 1991 г.",
                      correct: true
                  },
                  {
-                     answer: "Canada",
+                     answer: "В 1993 г.",
                      correct: false
                  },
                  {
-                     answer: "Ecuador",
-                     correct: true 
+                     answer: "В 1997 г.",
+                     correct: false 
                  }
             ]
 
         },
         {id: 10,
-            question: "In which city were the 1992 Summer Olympics held?",
+            question: "Какие два цвета присутствуют на флаге Киргизии?",
             answers: [
                 {
-                    answer: "Atlanta",
+                    answer: "Красный и белый",
                     correct: false
                  },
                  {
-                     answer: "Seoul",
+                     answer: "Синий и жёлтыйl",
                      correct: false
                  },
                  {
-                     answer: "Sydney",
+                     answer: "Красный и фиолетовыйy",
                      correct: false
                  },
                  {
-                     answer: "Barcelona",
+                     answer: "Красный и жёлтый",
                      correct: true 
                  }
             ]
